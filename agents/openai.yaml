@@ -1,0 +1,6 @@
+interface:
+  display_name: "Tailscale 回家与网络分流"
+  short_description: "配置手机和笔记本回家分流、家庭网络自动旁路、NAS 访问与独立管理入口"
+  default_prompt: "使用 $tailscale-home-split 检查或配置我的回家网络分流，并验证实际通信路径。"
+policy:
+  allow_implicit_invocation: true
